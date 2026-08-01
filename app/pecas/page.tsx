@@ -69,6 +69,7 @@ export default function Pecas() {
           </p>
           <nav className="atalhos">
             <Link href="/">Conferência de dados</Link>
+            <Link href="/passos">Plano do time</Link>
             <Link href="/guia">Guia em 6 passos</Link>
           </nav>
         </div>

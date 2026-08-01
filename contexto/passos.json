@@ -1,0 +1,60 @@
+{
+  "_leia": "O plano do time. Edite pelo app em /passos (rodando npm run dev) ou aqui direto.",
+  "passos": [
+    {
+      "id": "p01",
+      "texto": "Ler o desafio e a pasta contexto/ juntos, em voz alta",
+      "feito": false
+    },
+    {
+      "id": "p02",
+      "texto": "Entrevistar a Voz do Cliente e preencher contexto/01-dor.md",
+      "feito": false
+    },
+    {
+      "id": "p03",
+      "texto": "Fechar o MVP em 02-prd.md — 1 fluxo + 1 tela, sem exceção",
+      "feito": false
+    },
+    {
+      "id": "p04",
+      "texto": "Preencher 03-negocio.md com os 3 números do pitch",
+      "feito": false
+    },
+    {
+      "id": "p05",
+      "texto": "Imprimir o wireframe e deixar a Voz do Cliente riscar",
+      "feito": false
+    },
+    {
+      "id": "p06",
+      "texto": "Substituir a tela de conferência pela tela do fluxo principal",
+      "feito": false
+    },
+    {
+      "id": "p07",
+      "texto": "Construir a tela de resultado com o número que decide",
+      "feito": false
+    },
+    {
+      "id": "p08",
+      "texto": "Ligar a IA no fluxo (a rota /api/claude já existe)",
+      "feito": false
+    },
+    {
+      "id": "p09",
+      "texto": "Trocar o dado de exemplo pelo dado real do parceiro",
+      "feito": false
+    },
+    {
+      "id": "p10",
+      "texto": "git push e abrir o link no celular de alguém não técnico",
+      "feito": false
+    },
+    {
+      "id": "p11",
+      "texto": "Ensaiar o pitch de 5 minutos com o cronômetro do telão",
+      "feito": false
+    }
+  ]
+}

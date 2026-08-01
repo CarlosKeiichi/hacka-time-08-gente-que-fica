@@ -10,13 +10,15 @@
     "app/api/claude/route.ts": "456dda62723ad86b",
     "app/layout.tsx": "fe2c283cf65baecf",
     "app/globals.css": "88b813481c77190e",
-    "app/page.tsx": "9f0b9c84cb17799e",
+    "app/page.tsx": "9a662e2962b95cdd",
     "app/TesteClaude.tsx": "b9577e400016e145",
     "lib/guia.ts": "f5ff391134bfb53b",
     "app/Copiar.tsx": "b0d66fbeba8597f8",
-    "app/guia/page.tsx": "4fb60159c2d20574",
-    "app/pecas/page.tsx": "2619c082bd38c687",
+    "app/guia/page.tsx": "cfd7d48f116cba2a",
+    "app/pecas/page.tsx": "23d82ade8bda2fcc",
     "app/api/progresso/route.ts": "9566936bbb77d963",
-    "app/AutoAtualiza.tsx": "ff58a46ef2f234bb"
+    "app/AutoAtualiza.tsx": "ff58a46ef2f234bb",
+    "app/api/passos/route.ts": "9648c9274db02629",
+    "app/passos/page.tsx": "75f13e6c86d3bc02"
   }
 }

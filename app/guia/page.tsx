@@ -30,6 +30,7 @@ export default function Guia() {
             funcionar de verdade — não quando alguém clica numa caixinha.
           </p>
           <nav className="atalhos">
+            <Link href="/passos">Plano do time</Link>
             <Link href="/">Conferência de dados</Link>
             <Link href="/pecas">Peças visuais</Link>
           </nav>

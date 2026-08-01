@@ -26,6 +26,7 @@ export default function Home() {
             a tela de voces entra no lugar dela.
           </p>
           <nav className="atalhos">
+            <a href="/passos">Plano do time</a>
             <a href="/guia">Guia em 6 passos</a>
             <a href="/pecas">Peças visuais</a>
           </nav>
