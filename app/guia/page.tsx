@@ -2,6 +2,7 @@ import Link from "next/link";
 import { verificar, exemploPratico } from "@/lib/guia";
 import Copiar from "../Copiar";
 import AutoAtualiza from "../AutoAtualiza";
+import LeituraIA from "../LeituraIA";
 
 // Confere os passos a cada acesso, nao no build.
 export const dynamic = "force-dynamic";
@@ -59,6 +60,8 @@ export default function Guia() {
             ))}
           </div>
         </div>
+
+        <LeituraIA />
 
         <div className="bloco">
           <div className="entre">
