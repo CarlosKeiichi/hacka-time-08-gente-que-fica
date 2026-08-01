@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wireframe · Gente Que Fica · Hackathon Fogo Alto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Martian+Mono:wght@400;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --slate:#141110; --slate-2:#1d1815; --slate-3:#2b2320;
+  --paper:#f8f4ec; --paper-2:#ece3d3; --paper-3:#d9cdb8;
+  --ink:#141110; --ink-2:#5b524a; --ink-3:#8d8378;
+  --ember:#ff5a26; --ember-2:#d4380e; --ember-soft:#ffe6dc;
+  --good:#0f7a46; --good-soft:#dcf1e5;
+  --warn:#a86a00; --warn-soft:#fbecc6;
+  --bad:#c22a1c;  --bad-soft:#fadfdb;
+
+  --f-display:"Bricolage Grotesque","Futura","Bahnschrift","Franklin Gothic Medium",sans-serif;
+  --f-mono:"Martian Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --f-prose:"Newsreader",Georgia,"Times New Roman",serif;
+}
+
+html{-webkit-text-size-adjust:100%}
+body{
+  font-family:var(--f-display);
+  background:var(--slate);
+  color:var(--paper);
+  min-height:100vh;
+  padding:0 0 80px;
+  background-image:
+    radial-gradient(ellipse 90% 55% at 50% -10%, rgba(255,90,38,.13), transparent 70%),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.022) 0 1px, transparent 1px 64px),
+    repeating-linear-gradient(0deg, rgba(255,255,255,.022) 0 1px, transparent 1px 64px);
+}
+
+/* ---------------------------------------------------------------- cabecalho */
+.topo{
+  border-bottom:1px solid rgba(248,244,236,.14);
+  padding:26px 22px 22px;
+  position:relative;
+  overflow:hidden;
+}
+.topo::after{
+  content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;
+  background:repeating-linear-gradient(90deg,var(--ember) 0 22px,transparent 22px 34px);
+  opacity:.65;
+}
+.topo-linha{
+  display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 16px;
+  max-width:1180px;margin:0 auto;
+}
+.crachá{
+  font-family:var(--f-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--slate);background:var(--ember);padding:5px 10px;border-radius:2px;font-weight:700;
+}
+.topo h1{
+  font-size:clamp(26px,5.2vw,44px);font-weight:800;letter-spacing:-.025em;line-height:1;
+}
+.topo .frente{
+  font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);
+}
+.pergunta{
+  max-width:1180px;margin:16px auto 0;
+  font-family:var(--f-prose);font-style:italic;font-size:clamp(15px,2.2vw,19px);
+  color:var(--paper-2);opacity:.82;line-height:1.5;max-inline-size:62ch;
+}
+
+/* ---------------------------------------------------------------- aviso */
+.rascunho{
+  max-width:1180px;margin:22px auto 0;padding:0 22px;
+  display:flex;gap:14px;align-items:flex-start;
+}
+.rascunho .selo{
+  font-family:var(--f-mono);font-size:10px;font-weight:700;letter-spacing:.14em;
+  border:2px solid var(--ember);color:var(--ember);padding:6px 9px;border-radius:3px;
+  transform:rotate(-4deg);white-space:nowrap;flex:none;margin-top:2px;
+}
+.rascunho p{
+  font-family:var(--f-prose);font-size:15px;line-height:1.55;color:var(--paper-2);
+  opacity:.75;max-inline-size:70ch;
+}
+
+/* ---------------------------------------------------------------- trilho */
+.trilho{
+  max-width:1180px;margin:0 auto;padding:34px 22px 0;
+  display:grid;gap:34px;
+  grid-template-columns:1fr;
+}
+@media(min-width:940px){ .trilho{grid-template-columns:1fr 1fr;gap:40px} }
+
+.baia{display:flex;flex-direction:column;gap:14px;min-width:0}
+.baia-topo{display:flex;align-items:center;gap:11px}
+.baia-num{
+  font-family:var(--f-mono);font-size:12px;font-weight:700;
+  width:26px;height:26px;flex:none;border-radius:50%;
+  display:grid;place-items:center;
+  background:var(--ember);color:var(--slate);
+}
+.baia-nome{font-size:16px;font-weight:700;letter-spacing:-.01em}
+.baia-nota{
+  font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);margin-left:auto;text-align:right;
+}
+
+/* ---------------------------------------------------------------- comanda */
+.comanda{
+  background:var(--paper);color:var(--ink);
+  border-radius:4px;position:relative;
+  box-shadow:0 22px 50px -14px rgba(0,0,0,.72), 0 2px 0 rgba(255,255,255,.05);
+  max-width:430px;width:100%;
+  overflow:hidden;
+}
+.comanda::before,.comanda::after{
+  content:"";position:absolute;top:52px;width:14px;height:14px;border-radius:50%;
+  background:var(--slate);
+}
+.comanda::before{left:-7px} .comanda::after{right:-7px}
+
+.com-topo{
+  padding:14px 18px 13px;border-bottom:2px dashed var(--paper-3);
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.com-topo .app{
+  font-family:var(--f-mono);font-size:10px;font-weight:700;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ember-2);
+}
+.com-topo .hora{font-family:var(--f-mono);font-size:10px;color:var(--ink-3)}
+.com-corpo{padding:20px 18px 24px}
+
+/* ---------------------------------------------------------------- tipos */
+.rotulo{
+  font-family:var(--f-mono);font-size:9.5px;font-weight:700;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-3);line-height:1.7;display:inline-block;
+}
+.titulo{font-size:21px;font-weight:800;letter-spacing:-.02em;line-height:1.15}
+.subtitulo{font-size:15px;font-weight:600;letter-spacing:-.01em;line-height:1.25}
+.prosa{
+  font-family:var(--f-prose);font-size:15.5px;line-height:1.5;color:var(--ink-2);
+}
+.prosa b{color:var(--ink);font-weight:600}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+
+.numerao{
+  font-size:clamp(62px,17vw,86px);font-weight:800;letter-spacing:-.05em;line-height:.82;
+  font-variant-numeric:tabular-nums;
+}
+.numerao small{font-size:.3em;font-weight:700;letter-spacing:-.01em}
+.numerete{
+  font-size:30px;font-weight:800;letter-spacing:-.03em;line-height:1;
+  font-variant-numeric:tabular-nums;
+}
+
+/* ---------------------------------------------------------------- pecas */
+.pilha{display:flex;flex-direction:column;gap:16px}
+.pilha-g{display:flex;flex-direction:column;gap:22px}
+.linha{display:flex;align-items:center;gap:10px}
+.entre{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.regua{height:2px;background:var(--paper-2);border:0;margin:2px 0}
+.tracejo{height:0;border:0;border-top:2px dashed var(--paper-3);margin:4px 0}
+
+.tag{
+  font-family:var(--f-mono);font-size:9.5px;font-weight:700;letter-spacing:.1em;
+  text-transform:uppercase;padding:4px 7px;border-radius:2px;white-space:nowrap;
+}
+.t-bad{background:var(--bad-soft);color:var(--bad)}
+.t-warn{background:var(--warn-soft);color:var(--warn)}
+.t-good{background:var(--good-soft);color:var(--good)}
+.t-ember{background:var(--ember-soft);color:var(--ember-2)}
+.t-neutro{background:var(--paper-2);color:var(--ink-2)}
+
+.caixa{border:2px solid var(--paper-2);border-radius:4px;padding:14px}
+.caixa-ember{border-color:var(--ember);background:var(--ember-soft)}
+.caixa-bad{border-color:var(--bad);background:var(--bad-soft)}
+.caixa-good{border-color:var(--good);background:var(--good-soft)}
+.caixa-escura{background:var(--slate);color:var(--paper);border:0;border-radius:4px;padding:16px}
+.caixa-escura .rotulo{color:var(--ink-3)}
+
+.botao{
+  display:block;width:100%;text-align:center;
+  background:var(--ember);color:var(--slate);
+  font-family:var(--f-display);font-size:16px;font-weight:800;letter-spacing:-.01em;
+  padding:15px;border:0;border-radius:3px;cursor:pointer;
+}
+.botao-vazado{
+  background:transparent;color:var(--ink-2);border:2px solid var(--paper-3);
+  font-size:14px;font-weight:700;padding:12px;
+}
+.campo{
+  width:100%;border:2px solid var(--paper-3);border-radius:3px;padding:13px 12px;
+  font-family:var(--f-display);font-size:15px;color:var(--ink);background:#fff;
+}
+.campo::placeholder{color:var(--ink-3)}
+
+.item{
+  display:flex;align-items:center;gap:11px;padding:11px 0;
+  border-bottom:1px solid var(--paper-2);
+}
+.item:last-child{border-bottom:0}
+.item .nome{font-size:14.5px;font-weight:600;letter-spacing:-.01em;line-height:1.25;min-width:0}
+.item .sub{font-family:var(--f-mono);font-size:10px;color:var(--ink-3);margin-top:3px}
+.item .val{margin-left:auto;text-align:right;flex:none}
+.item .val .n{font-family:var(--f-mono);font-size:15px;font-weight:700;font-variant-numeric:tabular-nums}
+
+.barra{height:10px;border-radius:2px;background:var(--paper-2);overflow:hidden;display:flex}
+.barra span{display:block;height:100%}
+
+.farol{width:11px;height:11px;border-radius:50%;flex:none}
+.f-bad{background:var(--bad)} .f-warn{background:var(--warn)} .f-good{background:var(--good)}
+
+.grade{display:grid;gap:9px}
+.g2{grid-template-columns:1fr 1fr}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g7{grid-template-columns:repeat(7,1fr)}
+
+.mini{
+  border:2px solid var(--paper-2);border-radius:3px;padding:9px 8px;text-align:center;
+}
+.mini .n{font-family:var(--f-mono);font-size:15px;font-weight:700;font-variant-numeric:tabular-nums}
+.mini .l{font-family:var(--f-mono);font-size:8.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin-top:3px}
+
+.colunas{display:flex;align-items:flex-end;gap:5px;height:78px}
+.colunas div{flex:1;background:var(--paper-3);border-radius:1px 1px 0 0;position:relative}
+.colunas div.prev{background:var(--ember)}
+.colunas div.real{background:var(--ink)}
+
+/* ---------------------------------------------------------------- rodape */
+.rodape{
+  max-width:1180px;margin:46px auto 0;padding:26px 22px 0;
+  border-top:1px solid rgba(248,244,236,.13);
+}
+.rodape p{
+  font-family:var(--f-prose);font-size:14.5px;line-height:1.6;color:var(--paper-2);
+  opacity:.62;max-inline-size:74ch;
+}
+.rodape .como{
+  font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ember);margin-bottom:9px;
+}
+
+@media(max-width:520px){
+  .comanda::before,.comanda::after{display:none}
+  .trilho{padding-left:14px;padding-right:14px}
+  .topo{padding:20px 14px 18px}
+  .rascunho{padding:0 14px}
+}
+</style>
+</head>
+<body>
+
+<header class="topo">
+  <div class="topo-linha">
+    <span class="crachá">Time 08</span>
+    <h1>Gente Que Fica</h1>
+    <span class="frente">Grandes Redes e Cadeia · apoio IFB</span>
+  </div>
+  <p class="pergunta">&ldquo;Como poderíamos atrair, formar e segurar profissional operacional sem depender só de aumento de salário?&rdquo;</p>
+</header>
+
+<div class="rascunho">
+  <span class="selo">RASCUNHO</span>
+  <p>Isto é um esqueleto para a Voz do Cliente riscar com caneta na mão, não o produto final.
+     Os números são dos dados de exemplo em <span class="mono">dados/exemplo/</span> — são reais
+     dentro daquele conjunto, então as contas fecham. <b>Mude tudo o que precisar mudar.</b></p>
+</div>
+
+<main class="trilho">
+  <section class="baia">
+    <div class="baia-topo">
+      <span class="baia-num">1</span>
+      <span class="baia-nome">Primeiro turno, no celular</span>
+      <span class="baia-nota">a trilha no bolso</span>
+    </div>
+    <article class="comanda">
+      <div class="com-topo"><span class="app">Gente Que Fica</span><span class="hora">07:55</span></div>
+      <div class="com-corpo">
+<div class="pilha-g">
+  <div class="entre">
+    <div><div class="rotulo">Dia 1 · Auxiliar de Loja</div>
+      <div class="subtitulo" style="margin-top:5px">Abrir a loja</div></div>
+    <span class="tag t-ember">2 de 9</span>
+  </div>
+
+  <div class="barra"><span style="background:var(--ember);width:22%"></span></div>
+
+  <div class="caixa-escura">
+    <div class="rotulo">Antes de abrir a porta</div>
+    <p class="prosa" style="color:var(--paper);font-size:18px;margin-top:9px;line-height:1.45">
+    Confira a temperatura das câmaras e <b style="color:var(--ember)">anote na planilha</b>.</p>
+    <div class="grade g2" style="margin-top:13px">
+      <div class="mini" style="border-color:rgba(248,244,236,.2);background:transparent">
+        <div class="n" style="color:var(--paper)">−18°</div><div class="l">congelados</div></div>
+      <div class="mini" style="border-color:rgba(248,244,236,.2);background:transparent">
+        <div class="n" style="color:var(--paper)">0 a 4°</div><div class="l">resfriados</div></div>
+    </div>
+    <p class="prosa" style="color:var(--paper-2);font-size:14px;margin-top:11px;opacity:.8">
+    Fora disso, chame o gerente <b>antes</b> de usar qualquer produto.</p>
+  </div>
+
+  <div style="background:var(--paper-2);border:2px dashed var(--paper-3);border-radius:3px;
+              height:112px;display:grid;place-items:center">
+    <span class="rotulo">foto · termômetro da câmara</span>
+  </div>
+
+  <div class="grade g2">
+    <button class="botao botao-vazado" style="padding:12px">Não entendi</button>
+    <button class="botao" style="padding:12px">Entendi</button>
+  </div>
+
+  <p class="prosa" style="font-size:13px;text-align:center">Leva 2 minutos. Dá para fazer no ônibus.</p>
+</div></div>
+    </article>
+  </section>
+
+  <section class="baia">
+    <div class="baia-topo">
+      <span class="baia-num">2</span>
+      <span class="baia-nome">Qual unidade perde gente</span>
+      <span class="baia-nota">o radar da rede</span>
+    </div>
+    <article class="comanda">
+      <div class="com-topo"><span class="app">Gente Que Fica</span><span class="hora">09:00</span></div>
+      <div class="com-corpo">
+<div class="pilha-g">
+  <div>
+    <div class="rotulo">Turnover do mês · rede toda</div>
+    <div class="numerao" style="margin-top:6px;color:var(--warn)">5,2<small>%</small></div>
+    <p class="prosa" style="margin-top:9px">Mas a média esconde o problema.
+    <b>Uma unidade puxa tudo para cima.</b></p>
+  </div>
+
+  <hr class="tracejo">
+
+  <div>
+    <div class="rotulo">Por unidade</div>
+    <div style="margin-top:8px">
+      <div class="item"><span class="farol f-bad"></span><div style="min-width:0"><div class="nome">Loja 003 · rodovia</div><div class="sub">era 9,1% em ago/25</div></div><div class="val"><span class="n">11,4%</span></div></div>
+      <div class="item"><span class="farol f-warn"></span><div style="min-width:0"><div class="nome">Loja 001 · shopping</div><div class="sub">estável no ano</div></div><div class="val"><span class="n">5,1%</span></div></div>
+      <div class="item"><span class="farol f-good"></span><div style="min-width:0"><div class="nome">Loja 002 · centro</div><div class="sub">estável no ano</div></div><div class="val"><span class="n">4,4%</span></div></div>
+      <div class="item"><span class="farol f-good"></span><div style="min-width:0"><div class="nome">CD Regional</div><div class="sub">o mais estável da rede</div></div><div class="val"><span class="n">2,9%</span></div></div>
+      <div class="item"><span class="farol f-good"></span><div style="min-width:0"><div class="nome">Fábrica Unidade 1</div><div class="sub">o mais estável da rede</div></div><div class="val"><span class="n">2,6%</span></div></div>
+    </div>
+  </div>
+
+  <div class="caixa caixa-bad">
+    <div class="rotulo">A Loja 003 piorou o ano inteiro</div>
+    <p class="prosa" style="margin-top:8px">Subiu de <b>9,1%</b> para
+    <b>11,4%</b> em 12 meses, enquanto o resto da rede ficou parado.
+    O motivo mais registrado ali é <b>escala de fim de semana</b>.</p>
+  </div>
+
+  <div class="caixa-escura">
+    <div class="rotulo">O achado que liga tudo</div>
+    <p class="prosa" style="color:var(--paper-2);margin-top:8px">Quem <b style="color:var(--paper)">não terminou
+    o treinamento</b> sai com 3 meses de casa. Quem terminou fica 6.
+    <b style="color:var(--ember)">108 das 214 saídas do ano foram antes do 4º mês.</b></p>
+  </div>
+
+  <button class="botao">Ver quem está parado na trilha</button>
+</div></div>
+    </article>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="como">Como usar este rascunho</div>
+  <p>Abra no celular e no computador — foi desenhado para os dois. As duas telas são o
+escopo inteiro que o card permite: <b>1 fluxo principal + 1 tela de resultado</b>. Se aparecer
+uma terceira tela na conversa, ela vai para o <span class="mono">contexto/backlog.md</span>.</p>
+<p style="margin-top:12px">A Voz do Cliente valida <b>antes</b> de qualquer código. Imprima, entregue
+uma caneta e peça para riscar o que não faz sentido. O que ela riscar, muda.</p>
+</footer>
+
+</body>
+</html>

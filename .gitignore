@@ -1,0 +1,28 @@
+# dependências
+node_modules/
+.pnp
+.pnp.js
+
+# build
+.next/
+out/
+build/
+dist/
+
+# ambiente — NUNCA suba chave de API
+.env
+.env*.local
+.env.production
+
+# deploy
+.vercel
+
+# sistema
+.DS_Store
+*.pem
+npm-debug.log*
+yarn-error.log*
+
+# editor
+.vscode/
+.idea/

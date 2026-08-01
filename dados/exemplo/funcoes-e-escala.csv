@@ -1,0 +1,17 @@
+unidade,funcao,quantidade,escala,salario_base_brl
+Loja 001,Atendente,14,6x1 - 06h20,1980.00
+Loja 001,Auxiliar de Producao,16,6x1 - escala movel,2050.00
+Loja 001,Lider de Turno,5,6x1 - escala movel,3100.00
+Loja 001,Gerente de Loja,1,comercial,5400.00
+Loja 002,Atendente,10,6x1 - 06h20,1980.00
+Loja 002,Auxiliar de Producao,11,6x1 - escala movel,2050.00
+Loja 002,Lider de Turno,4,6x1 - escala movel,3100.00
+Loja 003,Atendente,17,6x1 - 06h20,1980.00
+Loja 003,Auxiliar de Producao,19,6x1 - escala movel,2050.00
+Loja 003,Lider de Turno,6,6x1 - escala movel,3100.00
+CD Regional,Auxiliar de Estoque,34,5x2 - 07h48,2240.00
+CD Regional,Conferente,12,5x2 - 07h48,2680.00
+CD Regional,Motorista de Entrega,14,5x2 - 07h48,3450.00
+Fabrica Unidade 1,Auxiliar de Producao,92,turno A/B/C 8h,2180.00
+Fabrica Unidade 1,Operador de Maquina,31,turno A/B/C 8h,2960.00
+Fabrica Unidade 1,Lider de Producao,12,turno A/B/C 8h,3980.00

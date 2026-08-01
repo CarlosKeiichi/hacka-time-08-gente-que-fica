@@ -1,0 +1,215 @@
+data_desligamento,unidade,funcao,tempo_de_casa_meses,motivo,tipo,categoria_motivo,concluiu_treinamento_inicial,observacao
+2025-08-01,CD Regional,Atendente,28,Pediu demissao,voluntario,Falta de perspectiva,nao,Nao enxerga crescimento na funcao
+2025-08-03,CD Regional,Auxiliar de Estoque,3,Pediu demissao,voluntario,Falta de perspectiva,nao,Nao enxerga crescimento na funcao
+2025-08-04,Loja 001,Atendente,4,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2025-08-04,Loja 003,Atendente,32,Pediu demissao,voluntario,Relacao com a lideranca,nao,Conflito com o lider direto
+2025-08-08,Fabrica Unidade 1,Atendente,3,Abandono de emprego,voluntario,Nao declarado,sim,Parou de comparecer
+2025-08-08,Loja 003,Auxiliar de Producao,31,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2025-08-09,Loja 001,Atendente,3,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2025-08-13,Loja 003,Auxiliar de Estoque,36,Dispensa sem justa causa,involuntario,Absenteismo,sim,Faltas e atrasos recorrentes
+2025-08-14,Loja 002,Atendente,12,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2025-08-19,Fabrica Unidade 1,Auxiliar de Estoque,6,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2025-08-19,Loja 003,Atendente,2,Pediu demissao,voluntario,Falta de perspectiva,nao,Nao enxerga crescimento na funcao
+2025-08-23,Loja 002,Auxiliar de Producao,1,Pediu demissao,voluntario,Ritmo de trabalho,nao,Pressao no horario de pico
+2025-08-24,CD Regional,Auxiliar de Producao,2,Fim de experiencia,involuntario,Nao efetivado,nao,Nao concluiu o treinamento inicial
+2025-08-24,Loja 001,Auxiliar de Estoque,2,Fim de experiencia,involuntario,Nao efetivado,nao,Nao concluiu o treinamento inicial
+2025-08-28,Loja 002,Auxiliar de Estoque,1,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2025-08-28,Loja 002,Auxiliar de Estoque,4,Dispensa sem justa causa,involuntario,Absenteismo,sim,Faltas e atrasos recorrentes
+2025-08-30,Fabrica Unidade 1,Atendente,4,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2025-08-30,Loja 001,Auxiliar de Producao,3,Abandono de emprego,voluntario,Nao declarado,nao,Parou de comparecer
+2025-08-30,Loja 002,Motorista de Entrega,1,Pediu demissao,voluntario,Transporte,sim,Custo e tempo de deslocamento
+2025-09-07,Loja 003,Auxiliar de Producao,4,Pediu demissao,voluntario,Transporte,sim,Custo e tempo de deslocamento
+2025-09-09,Loja 001,Atendente,3,Pediu demissao,voluntario,Transporte,sim,Custo e tempo de deslocamento
+2025-09-14,CD Regional,Auxiliar de Estoque,1,Pediu demissao,voluntario,Transporte,nao,Custo e tempo de deslocamento
+2025-09-14,Loja 003,Auxiliar de Producao,4,Pediu demissao,voluntario,Ritmo de trabalho,sim,Pressao no horario de pico
+2025-09-15,Fabrica Unidade 1,Auxiliar de Estoque,11,Abandono de emprego,voluntario,Nao declarado,sim,Parou de comparecer
+2025-09-15,Loja 003,Auxiliar de Estoque,3,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2025-09-18,Loja 003,Atendente,11,Dispensa sem justa causa,involuntario,Absenteismo,sim,Faltas e atrasos recorrentes
+2025-09-19,Loja 002,Motorista de Entrega,8,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2025-09-23,Loja 003,Motorista de Entrega,1,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2025-09-24,Loja 002,Auxiliar de Producao,3,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2025-09-24,Loja 003,Auxiliar de Estoque,1,Pediu demissao,voluntario,Ritmo de trabalho,nao,Pressao no horario de pico
+2025-09-24,Loja 003,Motorista de Entrega,3,Pediu demissao,voluntario,Salario,sim,Proposta melhor em outra empresa
+2025-09-25,CD Regional,Auxiliar de Estoque,2,Pediu demissao,voluntario,Escala de fim de semana,nao,Nao consegue conciliar com a familia
+2025-09-27,Loja 003,Auxiliar de Producao,57,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2025-09-28,CD Regional,Atendente,1,Fim de experiencia,involuntario,Nao efetivado,nao,Nao concluiu o treinamento inicial
+2025-09-28,Loja 003,Auxiliar de Estoque,51,Pediu demissao,voluntario,Ritmo de trabalho,sim,Pressao no horario de pico
+2025-09-30,Loja 002,Auxiliar de Estoque,3,Dispensa sem justa causa,involuntario,Absenteismo,nao,Faltas e atrasos recorrentes
+2025-10-02,CD Regional,Motorista de Entrega,7,Pediu demissao,voluntario,Transporte,sim,Custo e tempo de deslocamento
+2025-10-05,Loja 001,Motorista de Entrega,3,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2025-10-05,Loja 003,Atendente,1,Dispensa sem justa causa,involuntario,Absenteismo,sim,Faltas e atrasos recorrentes
+2025-10-06,Loja 003,Auxiliar de Producao,6,Pediu demissao,voluntario,Ritmo de trabalho,sim,Pressao no horario de pico
+2025-10-07,CD Regional,Atendente,2,Pediu demissao,voluntario,Transporte,sim,Custo e tempo de deslocamento
+2025-10-08,Loja 001,Auxiliar de Estoque,54,Pediu demissao,voluntario,Ritmo de trabalho,nao,Pressao no horario de pico
+2025-10-10,Loja 003,Atendente,16,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2025-10-11,Loja 001,Auxiliar de Estoque,1,Pediu demissao,voluntario,Ritmo de trabalho,nao,Pressao no horario de pico
+2025-10-11,Loja 003,Auxiliar de Estoque,27,Pediu demissao,voluntario,Salario,sim,Proposta melhor em outra empresa
+2025-10-13,Loja 003,Atendente,1,Pediu demissao,voluntario,Ritmo de trabalho,nao,Pressao no horario de pico
+2025-10-16,Loja 001,Auxiliar de Producao,52,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2025-10-26,Loja 001,Auxiliar de Producao,50,Dispensa sem justa causa,involuntario,Absenteismo,nao,Faltas e atrasos recorrentes
+2025-10-26,Loja 003,Auxiliar de Producao,24,Pediu demissao,voluntario,Escala de fim de semana,sim,Nao consegue conciliar com a familia
+2025-10-29,Fabrica Unidade 1,Atendente,3,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2025-10-29,Loja 003,Auxiliar de Producao,11,Pediu demissao,voluntario,Escala de fim de semana,sim,Nao consegue conciliar com a familia
+2025-10-30,Loja 002,Auxiliar de Producao,15,Pediu demissao,voluntario,Ritmo de trabalho,sim,Pressao no horario de pico
+2025-10-31,Loja 003,Atendente,3,Pediu demissao,voluntario,Transporte,nao,Custo e tempo de deslocamento
+2025-11-05,Loja 001,Atendente,3,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2025-11-05,Loja 001,Auxiliar de Producao,31,Pediu demissao,voluntario,Escala de fim de semana,sim,Nao consegue conciliar com a familia
+2025-11-08,CD Regional,Auxiliar de Producao,27,Dispensa sem justa causa,involuntario,Desempenho,sim,Nao atingiu o padrao da funcao
+2025-11-08,Loja 003,Auxiliar de Estoque,8,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2025-11-10,Loja 001,Auxiliar de Estoque,1,Pediu demissao,voluntario,Falta de perspectiva,nao,Nao enxerga crescimento na funcao
+2025-11-10,Loja 003,Atendente,32,Pediu demissao,voluntario,Ritmo de trabalho,sim,Pressao no horario de pico
+2025-11-13,Loja 003,Motorista de Entrega,45,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2025-11-14,CD Regional,Auxiliar de Producao,3,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2025-11-14,Loja 001,Atendente,3,Dispensa sem justa causa,involuntario,Desempenho,sim,Nao atingiu o padrao da funcao
+2025-11-18,Loja 003,Auxiliar de Producao,59,Dispensa sem justa causa,involuntario,Absenteismo,sim,Faltas e atrasos recorrentes
+2025-11-22,Loja 001,Auxiliar de Producao,28,Abandono de emprego,voluntario,Nao declarado,nao,Parou de comparecer
+2025-11-25,Fabrica Unidade 1,Auxiliar de Producao,3,Pediu demissao,voluntario,Relacao com a lideranca,nao,Conflito com o lider direto
+2025-11-25,Loja 002,Motorista de Entrega,2,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2025-12-01,Fabrica Unidade 1,Atendente,10,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2025-12-01,Loja 001,Auxiliar de Producao,2,Abandono de emprego,voluntario,Nao declarado,nao,Parou de comparecer
+2025-12-06,Fabrica Unidade 1,Motorista de Entrega,1,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2025-12-07,CD Regional,Auxiliar de Estoque,1,Abandono de emprego,voluntario,Nao declarado,nao,Parou de comparecer
+2025-12-07,CD Regional,Auxiliar de Estoque,3,Fim de experiencia,involuntario,Nao efetivado,nao,Nao concluiu o treinamento inicial
+2025-12-09,Loja 003,Auxiliar de Estoque,7,Pediu demissao,voluntario,Ritmo de trabalho,nao,Pressao no horario de pico
+2025-12-10,Loja 002,Auxiliar de Estoque,2,Fim de experiencia,involuntario,Nao efetivado,nao,Nao concluiu o treinamento inicial
+2025-12-15,Loja 003,Auxiliar de Producao,1,Abandono de emprego,voluntario,Nao declarado,nao,Parou de comparecer
+2025-12-17,CD Regional,Auxiliar de Producao,2,Dispensa sem justa causa,involuntario,Desempenho,sim,Nao atingiu o padrao da funcao
+2025-12-20,Loja 003,Atendente,2,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2025-12-20,Loja 003,Auxiliar de Estoque,5,Fim de experiencia,involuntario,Nao efetivado,nao,Nao concluiu o treinamento inicial
+2025-12-21,Fabrica Unidade 1,Auxiliar de Estoque,25,Pediu demissao,voluntario,Salario,sim,Proposta melhor em outra empresa
+2025-12-21,Fabrica Unidade 1,Auxiliar de Producao,14,Abandono de emprego,voluntario,Nao declarado,sim,Parou de comparecer
+2025-12-21,Loja 001,Atendente,52,Abandono de emprego,voluntario,Nao declarado,nao,Parou de comparecer
+2025-12-23,Loja 003,Auxiliar de Producao,3,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2025-12-31,Fabrica Unidade 1,Atendente,1,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2026-01-01,Loja 002,Atendente,2,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2026-01-02,Loja 001,Atendente,2,Pediu demissao,voluntario,Relacao com a lideranca,nao,Conflito com o lider direto
+2026-01-02,Loja 003,Atendente,5,Dispensa sem justa causa,involuntario,Absenteismo,sim,Faltas e atrasos recorrentes
+2026-01-02,Loja 003,Auxiliar de Producao,51,Pediu demissao,voluntario,Transporte,sim,Custo e tempo de deslocamento
+2026-01-04,Loja 003,Auxiliar de Producao,3,Pediu demissao,voluntario,Escala de fim de semana,nao,Nao consegue conciliar com a familia
+2026-01-08,Loja 003,Atendente,3,Pediu demissao,voluntario,Escala de fim de semana,nao,Nao consegue conciliar com a familia
+2026-01-08,Loja 003,Motorista de Entrega,5,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2026-01-09,Loja 001,Auxiliar de Producao,60,Fim de experiencia,involuntario,Nao efetivado,nao,Nao concluiu o treinamento inicial
+2026-01-10,CD Regional,Atendente,1,Abandono de emprego,voluntario,Nao declarado,sim,Parou de comparecer
+2026-01-12,Loja 001,Atendente,10,Dispensa sem justa causa,involuntario,Desempenho,sim,Nao atingiu o padrao da funcao
+2026-01-14,Loja 001,Motorista de Entrega,31,Pediu demissao,voluntario,Escala de fim de semana,nao,Nao consegue conciliar com a familia
+2026-01-16,Loja 001,Atendente,2,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2026-01-16,Loja 001,Atendente,16,Pediu demissao,voluntario,Transporte,nao,Custo e tempo de deslocamento
+2026-01-19,Loja 001,Atendente,11,Pediu demissao,voluntario,Relacao com a lideranca,sim,Conflito com o lider direto
+2026-01-20,Loja 001,Auxiliar de Producao,7,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2026-01-22,Loja 002,Motorista de Entrega,4,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2026-01-23,Loja 001,Atendente,10,Pediu demissao,voluntario,Salario,sim,Proposta melhor em outra empresa
+2026-01-23,Loja 001,Auxiliar de Estoque,5,Pediu demissao,voluntario,Ritmo de trabalho,sim,Pressao no horario de pico
+2026-01-25,Loja 003,Atendente,1,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2026-01-29,Loja 001,Atendente,3,Pediu demissao,voluntario,Transporte,nao,Custo e tempo de deslocamento
+2026-01-29,Loja 003,Auxiliar de Estoque,9,Pediu demissao,voluntario,Transporte,nao,Custo e tempo de deslocamento
+2026-01-30,Loja 001,Atendente,3,Pediu demissao,voluntario,Escala de fim de semana,sim,Nao consegue conciliar com a familia
+2026-02-01,Fabrica Unidade 1,Auxiliar de Producao,2,Dispensa sem justa causa,involuntario,Absenteismo,nao,Faltas e atrasos recorrentes
+2026-02-06,Loja 001,Auxiliar de Producao,3,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2026-02-07,CD Regional,Auxiliar de Producao,3,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2026-02-09,CD Regional,Auxiliar de Estoque,9,Fim de experiencia,involuntario,Nao efetivado,nao,Nao concluiu o treinamento inicial
+2026-02-10,CD Regional,Atendente,4,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2026-02-10,CD Regional,Auxiliar de Producao,2,Pediu demissao,voluntario,Salario,sim,Proposta melhor em outra empresa
+2026-02-12,CD Regional,Auxiliar de Producao,11,Abandono de emprego,voluntario,Nao declarado,sim,Parou de comparecer
+2026-02-12,Loja 002,Atendente,3,Pediu demissao,voluntario,Falta de perspectiva,nao,Nao enxerga crescimento na funcao
+2026-02-12,Loja 003,Auxiliar de Producao,9,Pediu demissao,voluntario,Salario,sim,Proposta melhor em outra empresa
+2026-02-14,CD Regional,Motorista de Entrega,2,Dispensa sem justa causa,involuntario,Absenteismo,nao,Faltas e atrasos recorrentes
+2026-02-14,Fabrica Unidade 1,Auxiliar de Producao,1,Pediu demissao,voluntario,Falta de perspectiva,nao,Nao enxerga crescimento na funcao
+2026-02-16,CD Regional,Auxiliar de Producao,2,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2026-02-17,Loja 003,Auxiliar de Producao,32,Pediu demissao,voluntario,Relacao com a lideranca,sim,Conflito com o lider direto
+2026-02-18,CD Regional,Atendente,3,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2026-02-18,Loja 003,Atendente,1,Pediu demissao,voluntario,Ritmo de trabalho,sim,Pressao no horario de pico
+2026-02-18,Loja 003,Auxiliar de Producao,60,Pediu demissao,voluntario,Escala de fim de semana,sim,Nao consegue conciliar com a familia
+2026-02-19,Loja 002,Motorista de Entrega,5,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2026-02-19,Loja 003,Atendente,1,Abandono de emprego,voluntario,Nao declarado,nao,Parou de comparecer
+2026-02-23,CD Regional,Auxiliar de Producao,4,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2026-02-23,Loja 002,Auxiliar de Estoque,3,Pediu demissao,voluntario,Ritmo de trabalho,sim,Pressao no horario de pico
+2026-03-02,CD Regional,Auxiliar de Estoque,1,Dispensa sem justa causa,involuntario,Desempenho,sim,Nao atingiu o padrao da funcao
+2026-03-05,Fabrica Unidade 1,Motorista de Entrega,2,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2026-03-06,Loja 001,Auxiliar de Estoque,6,Dispensa sem justa causa,involuntario,Desempenho,sim,Nao atingiu o padrao da funcao
+2026-03-06,Loja 003,Atendente,11,Pediu demissao,voluntario,Escala de fim de semana,nao,Nao consegue conciliar com a familia
+2026-03-09,Loja 001,Auxiliar de Producao,2,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2026-03-13,Loja 001,Atendente,3,Pediu demissao,voluntario,Ritmo de trabalho,sim,Pressao no horario de pico
+2026-03-14,Loja 001,Auxiliar de Estoque,2,Dispensa sem justa causa,involuntario,Absenteismo,sim,Faltas e atrasos recorrentes
+2026-03-15,Loja 001,Atendente,46,Pediu demissao,voluntario,Relacao com a lideranca,sim,Conflito com o lider direto
+2026-03-18,Loja 001,Auxiliar de Estoque,2,Pediu demissao,voluntario,Relacao com a lideranca,nao,Conflito com o lider direto
+2026-03-19,CD Regional,Auxiliar de Producao,8,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2026-03-21,CD Regional,Atendente,6,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2026-03-21,Loja 003,Auxiliar de Producao,3,Pediu demissao,voluntario,Relacao com a lideranca,nao,Conflito com o lider direto
+2026-03-26,Loja 002,Atendente,2,Pediu demissao,voluntario,Transporte,nao,Custo e tempo de deslocamento
+2026-03-27,CD Regional,Auxiliar de Producao,3,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2026-03-27,Fabrica Unidade 1,Auxiliar de Producao,11,Pediu demissao,voluntario,Falta de perspectiva,sim,Nao enxerga crescimento na funcao
+2026-03-30,Loja 003,Auxiliar de Producao,8,Pediu demissao,voluntario,Ritmo de trabalho,nao,Pressao no horario de pico
+2026-04-01,Loja 002,Auxiliar de Estoque,7,Pediu demissao,voluntario,Salario,sim,Proposta melhor em outra empresa
+2026-04-01,Loja 003,Auxiliar de Producao,8,Pediu demissao,voluntario,Transporte,sim,Custo e tempo de deslocamento
+2026-04-02,CD Regional,Atendente,26,Dispensa sem justa causa,involuntario,Absenteismo,sim,Faltas e atrasos recorrentes
+2026-04-02,Fabrica Unidade 1,Atendente,42,Pediu demissao,voluntario,Transporte,sim,Custo e tempo de deslocamento
+2026-04-03,Fabrica Unidade 1,Auxiliar de Producao,2,Fim de experiencia,involuntario,Nao efetivado,nao,Nao concluiu o treinamento inicial
+2026-04-03,Fabrica Unidade 1,Motorista de Entrega,3,Pediu demissao,voluntario,Transporte,nao,Custo e tempo de deslocamento
+2026-04-06,CD Regional,Atendente,2,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2026-04-06,Loja 003,Atendente,45,Pediu demissao,voluntario,Transporte,sim,Custo e tempo de deslocamento
+2026-04-08,Fabrica Unidade 1,Auxiliar de Producao,3,Pediu demissao,voluntario,Transporte,nao,Custo e tempo de deslocamento
+2026-04-08,Loja 001,Atendente,1,Dispensa sem justa causa,involuntario,Absenteismo,nao,Faltas e atrasos recorrentes
+2026-04-10,Fabrica Unidade 1,Motorista de Entrega,48,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2026-04-11,Loja 003,Auxiliar de Estoque,8,Pediu demissao,voluntario,Relacao com a lideranca,sim,Conflito com o lider direto
+2026-04-12,Fabrica Unidade 1,Auxiliar de Estoque,6,Pediu demissao,voluntario,Relacao com a lideranca,sim,Conflito com o lider direto
+2026-04-16,Loja 001,Motorista de Entrega,9,Abandono de emprego,voluntario,Nao declarado,nao,Parou de comparecer
+2026-04-21,CD Regional,Auxiliar de Producao,2,Pediu demissao,voluntario,Relacao com a lideranca,nao,Conflito com o lider direto
+2026-04-21,Loja 003,Motorista de Entrega,1,Pediu demissao,voluntario,Ritmo de trabalho,nao,Pressao no horario de pico
+2026-04-23,CD Regional,Atendente,1,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2026-04-23,Fabrica Unidade 1,Auxiliar de Producao,6,Pediu demissao,voluntario,Escala de fim de semana,nao,Nao consegue conciliar com a familia
+2026-04-23,Loja 001,Auxiliar de Producao,3,Pediu demissao,voluntario,Escala de fim de semana,sim,Nao consegue conciliar com a familia
+2026-04-28,Loja 002,Auxiliar de Producao,2,Pediu demissao,voluntario,Transporte,sim,Custo e tempo de deslocamento
+2026-04-29,CD Regional,Atendente,1,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2026-04-29,Fabrica Unidade 1,Atendente,8,Dispensa sem justa causa,involuntario,Desempenho,sim,Nao atingiu o padrao da funcao
+2026-05-02,CD Regional,Atendente,3,Pediu demissao,voluntario,Falta de perspectiva,nao,Nao enxerga crescimento na funcao
+2026-05-02,Fabrica Unidade 1,Atendente,11,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2026-05-03,CD Regional,Atendente,8,Pediu demissao,voluntario,Escala de fim de semana,sim,Nao consegue conciliar com a familia
+2026-05-04,Loja 001,Auxiliar de Estoque,1,Pediu demissao,voluntario,Relacao com a lideranca,sim,Conflito com o lider direto
+2026-05-04,Loja 003,Motorista de Entrega,3,Fim de experiencia,involuntario,Nao efetivado,nao,Nao concluiu o treinamento inicial
+2026-05-05,CD Regional,Auxiliar de Producao,2,Pediu demissao,voluntario,Falta de perspectiva,nao,Nao enxerga crescimento na funcao
+2026-05-09,Loja 001,Atendente,1,Pediu demissao,voluntario,Falta de perspectiva,nao,Nao enxerga crescimento na funcao
+2026-05-10,Loja 003,Motorista de Entrega,2,Pediu demissao,voluntario,Transporte,nao,Custo e tempo de deslocamento
+2026-05-11,Fabrica Unidade 1,Auxiliar de Producao,4,Pediu demissao,voluntario,Transporte,nao,Custo e tempo de deslocamento
+2026-05-13,CD Regional,Atendente,36,Pediu demissao,voluntario,Relacao com a lideranca,sim,Conflito com o lider direto
+2026-05-13,Loja 002,Motorista de Entrega,55,Pediu demissao,voluntario,Falta de perspectiva,nao,Nao enxerga crescimento na funcao
+2026-05-14,Loja 003,Auxiliar de Estoque,4,Pediu demissao,voluntario,Ritmo de trabalho,nao,Pressao no horario de pico
+2026-05-17,Fabrica Unidade 1,Auxiliar de Producao,1,Pediu demissao,voluntario,Transporte,sim,Custo e tempo de deslocamento
+2026-05-17,Loja 002,Auxiliar de Estoque,35,Pediu demissao,voluntario,Relacao com a lideranca,sim,Conflito com o lider direto
+2026-05-18,Loja 001,Atendente,3,Pediu demissao,voluntario,Ritmo de trabalho,nao,Pressao no horario de pico
+2026-05-19,CD Regional,Auxiliar de Estoque,7,Dispensa sem justa causa,involuntario,Desempenho,sim,Nao atingiu o padrao da funcao
+2026-05-21,Loja 003,Atendente,6,Abandono de emprego,voluntario,Nao declarado,sim,Parou de comparecer
+2026-05-22,Loja 001,Motorista de Entrega,1,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2026-05-24,CD Regional,Auxiliar de Estoque,1,Dispensa sem justa causa,involuntario,Absenteismo,nao,Faltas e atrasos recorrentes
+2026-05-24,Fabrica Unidade 1,Atendente,2,Pediu demissao,voluntario,Transporte,nao,Custo e tempo de deslocamento
+2026-05-25,Fabrica Unidade 1,Auxiliar de Producao,6,Dispensa sem justa causa,involuntario,Desempenho,sim,Nao atingiu o padrao da funcao
+2026-05-25,Fabrica Unidade 1,Auxiliar de Producao,13,Pediu demissao,voluntario,Relacao com a lideranca,sim,Conflito com o lider direto
+2026-05-26,Loja 001,Auxiliar de Producao,3,Pediu demissao,voluntario,Ritmo de trabalho,nao,Pressao no horario de pico
+2026-05-28,Fabrica Unidade 1,Auxiliar de Producao,3,Pediu demissao,voluntario,Relacao com a lideranca,nao,Conflito com o lider direto
+2026-05-29,Loja 001,Auxiliar de Producao,6,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2026-05-29,Loja 002,Atendente,5,Pediu demissao,voluntario,Salario,sim,Proposta melhor em outra empresa
+2026-05-30,Fabrica Unidade 1,Auxiliar de Producao,8,Dispensa sem justa causa,involuntario,Desempenho,sim,Nao atingiu o padrao da funcao
+2026-05-30,Loja 003,Auxiliar de Producao,5,Pediu demissao,voluntario,Escala de fim de semana,sim,Nao consegue conciliar com a familia
+2026-05-30,Loja 003,Motorista de Entrega,3,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2026-06-02,Loja 002,Motorista de Entrega,14,Dispensa sem justa causa,involuntario,Absenteismo,nao,Faltas e atrasos recorrentes
+2026-06-06,Loja 002,Motorista de Entrega,1,Dispensa sem justa causa,involuntario,Absenteismo,nao,Faltas e atrasos recorrentes
+2026-06-09,Fabrica Unidade 1,Auxiliar de Estoque,6,Abandono de emprego,voluntario,Nao declarado,sim,Parou de comparecer
+2026-06-10,Loja 002,Motorista de Entrega,59,Pediu demissao,voluntario,Escala de fim de semana,nao,Nao consegue conciliar com a familia
+2026-06-13,Loja 003,Auxiliar de Producao,16,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2026-06-15,Fabrica Unidade 1,Auxiliar de Producao,10,Pediu demissao,voluntario,Salario,sim,Proposta melhor em outra empresa
+2026-06-17,CD Regional,Motorista de Entrega,52,Pediu demissao,voluntario,Transporte,sim,Custo e tempo de deslocamento
+2026-06-24,Loja 001,Atendente,1,Pediu demissao,voluntario,Relacao com a lideranca,nao,Conflito com o lider direto
+2026-06-26,Loja 001,Auxiliar de Estoque,3,Pediu demissao,voluntario,Falta de perspectiva,nao,Nao enxerga crescimento na funcao
+2026-06-27,Loja 001,Atendente,2,Pediu demissao,voluntario,Ritmo de trabalho,nao,Pressao no horario de pico
+2026-06-29,Loja 003,Auxiliar de Producao,4,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2026-07-06,Loja 001,Atendente,1,Pediu demissao,voluntario,Salario,nao,Proposta melhor em outra empresa
+2026-07-07,CD Regional,Auxiliar de Producao,1,Pediu demissao,voluntario,Falta de perspectiva,nao,Nao enxerga crescimento na funcao
+2026-07-07,Loja 001,Auxiliar de Producao,6,Pediu demissao,voluntario,Escala de fim de semana,nao,Nao consegue conciliar com a familia
+2026-07-10,Fabrica Unidade 1,Auxiliar de Producao,3,Dispensa sem justa causa,involuntario,Desempenho,nao,Nao atingiu o padrao da funcao
+2026-07-16,Loja 001,Motorista de Entrega,6,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2026-07-17,Loja 003,Motorista de Entrega,4,Pediu demissao,voluntario,Ritmo de trabalho,sim,Pressao no horario de pico
+2026-07-18,Fabrica Unidade 1,Atendente,2,Abandono de emprego,voluntario,Nao declarado,nao,Parou de comparecer
+2026-07-19,Fabrica Unidade 1,Auxiliar de Producao,1,Pediu demissao,voluntario,Escala de fim de semana,sim,Nao consegue conciliar com a familia
+2026-07-23,Loja 001,Auxiliar de Producao,4,Fim de experiencia,involuntario,Nao efetivado,sim,Nao concluiu o treinamento inicial
+2026-07-29,Loja 003,Auxiliar de Producao,2,Pediu demissao,voluntario,Falta de perspectiva,nao,Nao enxerga crescimento na funcao
+2026-07-29,Loja 003,Auxiliar de Producao,11,Pediu demissao,voluntario,Salario,sim,Proposta melhor em outra empresa
+2026-07-31,Loja 001,Atendente,28,Dispensa sem justa causa,involuntario,Desempenho,sim,Nao atingiu o padrao da funcao
