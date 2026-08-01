@@ -25,6 +25,10 @@ export default function Home() {
             O app esta de pe e lendo os dados. Esta tela e so a conferencia —
             a tela de voces entra no lugar dela.
           </p>
+          <nav className="atalhos">
+            <a href="/guia">Guia em 6 passos</a>
+            <a href="/pecas">Peças visuais</a>
+          </nav>
         </div>
       </header>
 

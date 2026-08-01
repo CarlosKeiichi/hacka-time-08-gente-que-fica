@@ -97,3 +97,74 @@ td{
 .aviso{border-left:3px solid var(--ember);padding-left:16px;margin-top:14px}
 .aviso.erro{border-left-color:var(--bad)}
 .aviso.ok{border-left-color:var(--good)}
+
+/* ---------------- guia e pecas */
+.atalhos{display:flex;gap:18px;margin-top:20px;flex-wrap:wrap}
+.atalhos a{
+  font-family:var(--f-mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink-3);text-decoration:none;border-bottom:2px solid transparent;padding-bottom:4px;
+}
+.atalhos a:hover{color:var(--ember);border-bottom-color:var(--ember)}
+
+.trilha{height:9px;background:rgba(248,244,236,.1);border-radius:2px;overflow:hidden}
+.trilha span{display:block;height:100%;background:var(--ember);border-radius:2px}
+
+.passo{display:flex;align-items:flex-start;gap:13px;padding:14px 0;
+  border-bottom:1px solid rgba(248,244,236,.08)}
+.passo:last-child{border-bottom:0}
+.passo .bola{
+  width:24px;height:24px;border-radius:50%;flex:none;display:grid;place-items:center;
+  border:2px solid rgba(248,244,236,.22);font-family:var(--f-mono);font-size:11px;
+  color:var(--ink-3);margin-top:1px;
+}
+.passo.ok .bola{background:var(--good);border-color:var(--good);color:var(--slate);font-weight:700}
+.passo .txt{display:flex;flex-direction:column;gap:4px;min-width:0}
+.passo .nome{font-size:15.5px;font-weight:700;letter-spacing:-.01em}
+.passo.ok .nome{color:var(--good)}
+.passo .como{font-family:var(--f-prose);font-size:15px;line-height:1.5;
+  color:var(--paper-2);opacity:.72}
+
+.codigo{position:relative;margin-top:14px}
+.codigo pre{
+  background:var(--slate-3);border-radius:4px;padding:16px;overflow-x:auto;
+  font-family:var(--f-mono);font-size:12px;line-height:1.7;color:var(--paper-2);
+  border:1px solid rgba(248,244,236,.08);
+}
+.copiar{
+  position:absolute;top:10px;right:10px;z-index:1;
+  font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+  background:rgba(248,244,236,.1);color:var(--paper-2);
+  border:0;border-radius:2px;padding:6px 9px;cursor:pointer;
+}
+.copiar:hover{background:var(--ember);color:var(--slate)}
+
+.palco{
+  background:var(--slate-3);border-radius:4px;padding:26px;margin-top:14px;
+  display:flex;align-items:center;justify-content:center;
+  border:1px solid rgba(248,244,236,.08);
+}
+.numerao{font-size:clamp(56px,12vw,84px);font-weight:800;letter-spacing:-.05em;
+  line-height:.85;font-variant-numeric:tabular-nums;margin:8px 0}
+
+.grade-3{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.mini{border:2px solid rgba(248,244,236,.14);border-radius:3px;padding:11px 8px;text-align:center}
+.mini .n{font-family:var(--f-mono);font-size:16px;font-weight:700;font-variant-numeric:tabular-nums}
+.mini .l{font-family:var(--f-mono);font-size:8.5px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ink-3);margin-top:4px}
+
+.item{display:flex;align-items:center;gap:11px;padding:12px 0;
+  border-bottom:1px solid rgba(248,244,236,.07)}
+.item:last-child{border-bottom:0}
+.item .txt{display:flex;flex-direction:column;gap:3px;min-width:0}
+.item .nome{font-size:15px;font-weight:600;letter-spacing:-.01em}
+.item .como{font-family:var(--f-mono);font-size:10.5px;color:var(--ink-3)}
+.item .val{margin-left:auto;font-size:14px;font-weight:700;flex:none}
+
+.farol{width:11px;height:11px;border-radius:50%;flex:none}
+.f-bad{background:var(--bad)} .f-warn{background:var(--warn)} .f-good{background:var(--good)}
+
+.colunas{display:flex;align-items:flex-end;gap:8px;height:110px}
+.colunas div{flex:1;background:var(--ember);border-radius:2px 2px 0 0;min-height:3px}
+.eixo{display:flex;gap:8px;margin-top:7px}
+.eixo span{flex:1;text-align:center;font-family:var(--f-mono);font-size:9.5px;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}

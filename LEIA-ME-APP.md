@@ -4,6 +4,17 @@ Isto **não é o produto de vocês**. É o ponto de partida: um Next.js que já 
 já lê os CSVs do time, já tem a identidade visual do evento e já fala com a API
 do Claude. Serve para vocês não perderem as duas primeiras horas com configuração.
 
+## Três telas que já vêm prontas
+
+| Endereço | Para quê |
+|---|---|
+| `/` | Conferência: mostra se o app está lendo os seus CSVs |
+| `/guia` | **Comece por aqui.** Seis passos que se conferem sozinhos, com o exemplo rodando no dado de vocês |
+| `/pecas` | Catálogo visual: número gigante, semáforo, gráfico, etiquetas — com o código para copiar |
+
+O `/guia` não tem caixinha para clicar: cada passo vira verde quando passa a
+funcionar de verdade. Se um passo está cinza, ele diz o que falta fazer.
+
 ## Rodando pela primeira vez
 
 ```bash

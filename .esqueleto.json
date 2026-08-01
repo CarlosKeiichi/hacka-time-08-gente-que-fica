@@ -9,8 +9,12 @@
     "lib/dados.ts": "4424db65220450f3",
     "app/api/claude/route.ts": "456dda62723ad86b",
     "app/layout.tsx": "af63db472ec74466",
-    "app/globals.css": "88a63e3513709361",
-    "app/page.tsx": "388affb7185532da",
-    "app/TesteClaude.tsx": "b9577e400016e145"
+    "app/globals.css": "d73edaee304469aa",
+    "app/page.tsx": "9f0b9c84cb17799e",
+    "app/TesteClaude.tsx": "b9577e400016e145",
+    "lib/guia.ts": "e4834d9db3fed1e2",
+    "app/Copiar.tsx": "b0d66fbeba8597f8",
+    "app/guia/page.tsx": "a7bd96b479417e45",
+    "app/pecas/page.tsx": "2619c082bd38c687"
   }
 }
