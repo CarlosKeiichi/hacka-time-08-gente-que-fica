@@ -1,6 +1,5 @@
 import fs from "node:fs";
 import path from "node:path";
-import crypto from "node:crypto";
 import { carregar, listarTudo, type Linha } from "./dados";
 
 /**
@@ -19,43 +18,15 @@ export type Passo = {
   detalhe: string;
 };
 
-/** O time ja mexeu em algum arquivo do esqueleto, ou criou algum novo? */
+/**
+ * O time ja escreveu codigo proprio?
+ *
+ * Calculado em tempo de BUILD (veja next.config.mjs) e lido aqui. Nao da para
+ * conferir isto em tempo de execucao: em producao o codigo-fonte nao existe
+ * mais, so o bundle — a comparacao acharia que tudo sumiu.
+ */
 function mexeuNoCodigo(): boolean {
-  const manifesto = path.join(RAIZ, ".esqueleto.json");
-  if (!fs.existsSync(manifesto)) return false;
-
-  const original: Record<string, string> = JSON.parse(
-    fs.readFileSync(manifesto, "utf-8"),
-  ).arquivos;
-
-  for (const [rel, digital] of Object.entries(original)) {
-    const p = path.join(RAIZ, rel);
-    if (!fs.existsSync(p)) return true;
-    const atual = crypto
-      .createHash("sha256")
-      .update(fs.readFileSync(p))
-      .digest("hex")
-      .slice(0, 16);
-    if (atual !== digital) return true;
-  }
-
-  for (const pasta of ["app", "lib", "components"]) {
-    const d = path.join(RAIZ, pasta);
-    if (!fs.existsSync(d)) continue;
-    const pilha = [d];
-    while (pilha.length) {
-      const atual = pilha.pop()!;
-      for (const entrada of fs.readdirSync(atual, { withFileTypes: true })) {
-        const cheio = path.join(atual, entrada.name);
-        if (entrada.isDirectory()) {
-          pilha.push(cheio);
-        } else if (/\.(ts|tsx|js|jsx|css)$/.test(entrada.name)) {
-          if (!(path.relative(RAIZ, cheio) in original)) return true;
-        }
-      }
-    }
-  }
-  return false;
+  return process.env.TIME_MEXEU_NO_CODIGO === "1";
 }
 
 export function verificar(): Passo[] {
@@ -64,7 +35,9 @@ export function verificar(): Passo[] {
   const temReal = tabelas.some((t) => t.origem === "real");
   const temChave = Boolean(process.env.ANTHROPIC_API_KEY);
   const mexeu = mexeuNoCodigo();
-  const temVercel = fs.existsSync(path.join(RAIZ, ".vercel"));
+  // Em producao, rodar na Vercel JA e a prova de que esta no ar.
+  // Na maquina do time, a pasta .vercel indica que o projeto foi ligado.
+  const noAr = process.env.VERCEL === "1" || fs.existsSync(path.join(RAIZ, ".vercel"));
 
   return [
     {
@@ -111,9 +84,9 @@ export function verificar(): Passo[] {
     {
       numero: 6,
       titulo: "Está no ar",
-      feito: temVercel,
-      detalhe: temVercel
-        ? "O projeto já está ligado à Vercel. Rode npx vercel --prod para publicar a versão atual."
+      feito: noAr,
+      detalhe: noAr
+        ? "Publicado. Todo push no GitHub gera um deploy novo automaticamente."
         : "Ainda não publicado. Rode npx vercel e depois npx vercel --prod. Faça isso cedo, não às 18h.",
     },
   ];

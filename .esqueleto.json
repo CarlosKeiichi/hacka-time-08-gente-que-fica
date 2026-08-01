@@ -3,7 +3,7 @@
   "arquivos": {
     "package.json": "6fe85e824b6f1942",
     "tsconfig.json": "f6c45b018bb65e85",
-    "next.config.mjs": "3e2b4a675deed54f",
+    "next.config.mjs": "2131b97518371225",
     ".env.example": "f3113cc797a33177",
     "LEIA-ME-APP.md": "81a84cea021863bd",
     "lib/dados.ts": "4424db65220450f3",
@@ -12,7 +12,7 @@
     "app/globals.css": "d73edaee304469aa",
     "app/page.tsx": "9f0b9c84cb17799e",
     "app/TesteClaude.tsx": "b9577e400016e145",
-    "lib/guia.ts": "e4834d9db3fed1e2",
+    "lib/guia.ts": "f5ff391134bfb53b",
     "app/Copiar.tsx": "b0d66fbeba8597f8",
     "app/guia/page.tsx": "4fb60159c2d20574",
     "app/pecas/page.tsx": "2619c082bd38c687",
