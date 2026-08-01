@@ -26,3 +26,8 @@ yarn-error.log*
 # editor
 .vscode/
 .idea/
+
+# next
+/.next/
+/out/
+next-env.d.ts
