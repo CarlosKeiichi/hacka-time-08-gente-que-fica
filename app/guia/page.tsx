@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { verificar, exemploPratico } from "@/lib/guia";
 import Copiar from "../Copiar";
+import AutoAtualiza from "../AutoAtualiza";
 
 // Confere os passos a cada acesso, nao no build.
 export const dynamic = "force-dynamic";
@@ -19,6 +20,7 @@ export default function Guia() {
 
   return (
     <main>
+      <AutoAtualiza />
       <header className="cabeca">
         <div className="env">
           <span className="crachá">Time 08 · Guia</span>

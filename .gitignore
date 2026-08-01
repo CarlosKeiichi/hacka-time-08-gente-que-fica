@@ -31,3 +31,6 @@ yarn-error.log*
 /.next/
 /out/
 next-env.d.ts
+
+# artefatos de teste de navegador
+.playwright-mcp/

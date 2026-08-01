@@ -14,7 +14,9 @@
     "app/TesteClaude.tsx": "b9577e400016e145",
     "lib/guia.ts": "e4834d9db3fed1e2",
     "app/Copiar.tsx": "b0d66fbeba8597f8",
-    "app/guia/page.tsx": "a7bd96b479417e45",
-    "app/pecas/page.tsx": "2619c082bd38c687"
+    "app/guia/page.tsx": "4fb60159c2d20574",
+    "app/pecas/page.tsx": "2619c082bd38c687",
+    "app/api/progresso/route.ts": "9566936bbb77d963",
+    "app/AutoAtualiza.tsx": "ff58a46ef2f234bb"
   }
 }
