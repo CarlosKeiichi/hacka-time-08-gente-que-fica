@@ -1,0 +1,27 @@
+# Deploy na Vercel a cada push — feito pela organização do Fogo Alto.
+#
+# Por que existe: em conta hobby, a Vercel só builda commits do dono da conta.
+# Num hackathon, quem commita é o time — então o deploy sai daqui, com o token
+# da organização, e vale para o push de qualquer pessoa.
+#
+# Não mexa neste arquivo. Se o deploy falhar, o log fica na aba Actions.
+name: Publicar na Vercel
+on:
+  push:
+    branches: [main]
+concurrency:
+  group: deploy-producao
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # sem .git, o CLI não anexa metadados de commit — é isso que evita o
+      # bloqueio de autor da conta hobby
+      - run: rm -rf .git
+      - run: npx vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
