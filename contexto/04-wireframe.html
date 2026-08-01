@@ -4,22 +4,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Wireframe · Gente Que Fica · Hackathon Fogo Alto</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Martian+Mono:wght@400;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600&family=Martian+Mono:wght@400;700&family=Nunito Sans:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 
 :root{
-  --slate:#141110; --slate-2:#1d1815; --slate-3:#2b2320;
-  --paper:#f8f4ec; --paper-2:#ece3d3; --paper-3:#d9cdb8;
-  --ink:#141110; --ink-2:#5b524a; --ink-3:#8d8378;
-  --ember:#ff5a26; --ember-2:#d4380e; --ember-soft:#ffe6dc;
-  --good:#0f7a46; --good-soft:#dcf1e5;
-  --warn:#a86a00; --warn-soft:#fbecc6;
-  --bad:#c22a1c;  --bad-soft:#fadfdb;
+  --slate:#faf6ef; --slate-2:#ffffff; --slate-3:#f1ebe0;
+  --paper:#ffffff; --paper-2:#e6e3dc; --paper-3:#cfcdc6;
+  --ink:#23282a; --ink-2:#3d4548; --ink-3:#8b9296;
+  --ember:#d2734d; --ember-2:#bf6238; --ember-soft:#f6ddd0;
+  --good:#3e8e5a; --good-soft:#e3efe8;
+  --warn:#8f6212; --warn-soft:#faefd8;
+  --bad:#991b1b;  --bad-soft:#f4dddd;
 
-  --f-display:"Bricolage Grotesque","Futura","Bahnschrift","Franklin Gothic Medium",sans-serif;
-  --f-mono:"Martian Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
-  --f-prose:"Newsreader",Georgia,"Times New Roman",serif;
+  --f-display:'Fredoka',"Futura","Bahnschrift","Franklin Gothic Medium",sans-serif;
+  --f-mono:'JetBrains Mono',ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --f-prose:'Nunito Sans',system-ui,sans-serif;
 }
 
 html{-webkit-text-size-adjust:100%}
@@ -29,15 +29,11 @@ body{
   color:var(--paper);
   min-height:100vh;
   padding:0 0 80px;
-  background-image:
-    radial-gradient(ellipse 90% 55% at 50% -10%, rgba(255,90,38,.13), transparent 70%),
-    repeating-linear-gradient(90deg, rgba(255,255,255,.022) 0 1px, transparent 1px 64px),
-    repeating-linear-gradient(0deg, rgba(255,255,255,.022) 0 1px, transparent 1px 64px);
 }
 
 /* ---------------------------------------------------------------- cabecalho */
 .topo{
-  border-bottom:1px solid rgba(248,244,236,.14);
+  border-bottom:1px solid rgba(35,40,42,.14);
   padding:26px 22px 22px;
   position:relative;
   overflow:hidden;
@@ -56,7 +52,7 @@ body{
   color:var(--slate);background:var(--ember);padding:5px 10px;border-radius:2px;font-weight:700;
 }
 .topo h1{
-  font-size:clamp(26px,5.2vw,44px);font-weight:800;letter-spacing:-.025em;line-height:1;
+  font-size:clamp(26px,5.2vw,44px);font-weight:700;letter-spacing:-.025em;line-height:1;
 }
 .topo .frente{
   font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
@@ -109,7 +105,7 @@ body{
 .comanda{
   background:var(--paper);color:var(--ink);
   border-radius:4px;position:relative;
-  box-shadow:0 22px 50px -14px rgba(0,0,0,.72), 0 2px 0 rgba(255,255,255,.05);
+  box-shadow:0 22px 50px -14px rgba(35,40,42,.12), 0 2px 0 rgba(255,255,255,.05);
   max-width:430px;width:100%;
   overflow:hidden;
 }
@@ -135,7 +131,7 @@ body{
   font-family:var(--f-mono);font-size:9.5px;font-weight:700;letter-spacing:.16em;
   text-transform:uppercase;color:var(--ink-3);line-height:1.7;display:inline-block;
 }
-.titulo{font-size:21px;font-weight:800;letter-spacing:-.02em;line-height:1.15}
+.titulo{font-size:21px;font-weight:700;letter-spacing:-.02em;line-height:1.15}
 .subtitulo{font-size:15px;font-weight:600;letter-spacing:-.01em;line-height:1.25}
 .prosa{
   font-family:var(--f-prose);font-size:15.5px;line-height:1.5;color:var(--ink-2);
@@ -144,12 +140,12 @@ body{
 .mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
 
 .numerao{
-  font-size:clamp(62px,17vw,86px);font-weight:800;letter-spacing:-.05em;line-height:.82;
+  font-size:clamp(62px,17vw,86px);font-weight:700;letter-spacing:-.05em;line-height:.82;
   font-variant-numeric:tabular-nums;
 }
 .numerao small{font-size:.3em;font-weight:700;letter-spacing:-.01em}
 .numerete{
-  font-size:30px;font-weight:800;letter-spacing:-.03em;line-height:1;
+  font-size:30px;font-weight:700;letter-spacing:-.03em;line-height:1;
   font-variant-numeric:tabular-nums;
 }
 
@@ -181,7 +177,7 @@ body{
 .botao{
   display:block;width:100%;text-align:center;
   background:var(--ember);color:var(--slate);
-  font-family:var(--f-display);font-size:16px;font-weight:800;letter-spacing:-.01em;
+  font-family:var(--f-display);font-size:16px;font-weight:700;letter-spacing:-.01em;
   padding:15px;border:0;border-radius:3px;cursor:pointer;
 }
 .botao-vazado{
@@ -229,7 +225,7 @@ body{
 /* ---------------------------------------------------------------- rodape */
 .rodape{
   max-width:1180px;margin:46px auto 0;padding:26px 22px 0;
-  border-top:1px solid rgba(248,244,236,.13);
+  border-top:1px solid rgba(35,40,42,.13);
 }
 .rodape p{
   font-family:var(--f-prose);font-size:14.5px;line-height:1.6;color:var(--paper-2);
@@ -239,6 +235,35 @@ body{
   font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
   color:var(--ember);margin-bottom:9px;
 }
+
+
+/* ══ Fogo Alto DS · sobrescritas ══ */
+body{background-image:none;color:var(--ink)}
+.topo{border-bottom:1px solid #e6e3dc}
+.topo::after{background:#991b1b;height:3px;opacity:1}
+.topo h1{color:var(--ink)}
+.topo .frente{color:#8b9296}
+.pergunta{color:#3d4548;opacity:.9}
+.rascunho p{color:#3d4548;opacity:.9}
+.rascunho .selo{border-color:#991b1b;color:#991b1b;border-radius:999px}
+.rodape{border-top:1px solid #e6e3dc}
+.rodape p{color:#3d4548;opacity:.8}
+.rodape .como{color:#991b1b}
+.baia-nome{color:var(--ink)}
+.baia-num{border-radius:999px}
+.comanda{border-radius:20px;border:1px solid #e6e3dc;
+  box-shadow:0 8px 24px rgba(35,40,42,.09)}
+.comanda::before,.comanda::after{display:none}
+.com-topo{border-bottom:1px solid #e6e3dc}
+.caixa{border-radius:14px}
+.caixa-escura{background:#23282a;border-radius:14px}
+.caixa-escura .prosa{color:#e6e3dc}
+.botao{border-radius:999px}
+.campo{border-radius:12px}
+.tag{border-radius:999px}
+.mini{border-radius:12px}
+.colunas div.real{background:#23282a}
+.numerao,.numerete{letter-spacing:-.02em}
 
 @media(max-width:520px){
   .comanda::before,.comanda::after{display:none}
